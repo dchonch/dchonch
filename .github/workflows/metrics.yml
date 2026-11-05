@@ -15,7 +15,7 @@ jobs:
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
           user: dchonch
           base: achievements
           plugin_achievements: yes
@@ -32,8 +32,7 @@ jobs:
           filename: header.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
 
           # Options
           user: dchonch
@@ -47,7 +46,7 @@ jobs:
         with:
           filename: lines-of-code.svg
           token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
           base: "repositories"
           plugin_lines: yes
 
@@ -59,8 +58,7 @@ jobs:
           filename: acti_comm.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
 
           # Options
           user: dchonch
@@ -76,8 +74,7 @@ jobs:
           filename: iso_calender.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
 
           # Options
           user: dchonch
@@ -94,7 +91,7 @@ jobs:
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: dchonch
           base: ""
@@ -113,8 +110,7 @@ jobs:
           filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
 
           # Options
           user: dchonch
@@ -133,8 +129,7 @@ jobs:
           filename: repositories.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.METRICS_SECRET }}
 
           # Options
           user: dchonch
