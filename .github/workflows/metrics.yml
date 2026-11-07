@@ -9,7 +9,7 @@ jobs:
 
   achievements:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -26,7 +26,7 @@ jobs:
 
   github-metrics:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -43,7 +43,7 @@ jobs:
 
   acti_comm:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -60,7 +60,7 @@ jobs:
 
   iso_calender:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -79,7 +79,7 @@ jobs:
 
   habits:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -98,7 +98,7 @@ jobs:
 
   issue_pr_lang:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
@@ -118,7 +118,7 @@ jobs:
 
   repositories:
     timeout-minutes: 30
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-2-vcpu
     steps:
       - uses: dchonch/metrics@master
         with:
