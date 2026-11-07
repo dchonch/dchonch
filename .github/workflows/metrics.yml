@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -25,9 +25,10 @@ jobs:
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
 
   github-metrics:
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: header.svg
           # You'll need to setup a personal token in your secrets.
@@ -44,7 +45,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: acti_comm.svg
           # You'll need to setup a personal token in your secrets.
@@ -61,7 +62,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: iso_calender.svg
           # You'll need to setup a personal token in your secrets.
@@ -80,7 +81,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
@@ -99,7 +100,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
@@ -119,7 +120,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-      - uses: dchonch/metrics@fix-plugins
+      - uses: dchonch/metrics@master
         with:
           filename: repositories.svg
           # You'll need to setup a personal token in your secrets.
